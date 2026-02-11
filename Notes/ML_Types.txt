@@ -5,7 +5,8 @@ Machine Larning Types:
 4) Reinforcement Learning
 ================================================================================================================================
 
-1) Supervised Learning: If we have our Data Input and output and our work is to find relationship bitween them so that we can tell output for new inputs it's called "Supervised Larning".
+1) Supervised Learning: Data With Lables.
+If we have our Data Input and output and our work is to find relationship bitween them so that we can tell output for new inputs it's called "Supervised Larning".
 Ex.: Student placed or not with IQ and CGPA bases.
 
 IQ      CGPA        Y/N placed
@@ -13,11 +14,18 @@ IQ      CGPA        Y/N placed
 111     8.9         Y
 75      6.3         N
 
+Info:
+type of Data = labeled Data
+Type of Problame = Classification, Regression
+Algorithum = S>VM, Decision Trees, NN
+Goal = Predict outcomes accurately
+Application = Medical Diagnosis, Fraud Detection
+
 Data Types:
 1) numerical Data- age, CGPA, IQ
 2)Categorical- gender, nationality
 
-|-> i) Regration: if our Target/output column data is 'Numerical Data' so that Supervised ML Problame called "Regration".
+|-> i) Regression: if our Target/output column data is 'Numerical Data' so that Supervised ML Problame called "Regression".
 
 Ex.: Student Packag/Salary or not with IQ and CGPA bases.
 
@@ -45,10 +53,9 @@ IQ      CGPA        Y/N placed
 
 2) Unsupervised Learning:If we have only Inputs in our Data so it's called "Unsupervised Larning".
 
-|-> i) Clustering: Gropping the same value that called "Clustering"
-
-|-> ii) Dimentionality Reduction: Remove Extra columns form Dtaaset so decresed   
-
-|-> iii) Anamoly Detection:
-
-|-> iv) Assosiation Rule Learning:
+Info:
+type of Data = Unlabeled Data
+Type of Problame = Classification, Regression
+Algorithum = K-means, PCA, Autoencoder
+Goal = Discovered Hidden Partten
+Application = Customer Segmentation, anomaly Detection
