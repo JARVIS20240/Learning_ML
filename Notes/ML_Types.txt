@@ -1,1 +1,42 @@
 Machine Larning Types:
+1) Supervised Learning 
+2) Unsupervised Learning
+3) Semi-Supervised Learning
+4) Reinforcement Learning
+================================================================================================================================
+
+1) Supervised Learning: If we have our Data Input and output and our work is to find relationship bitween them so that we can tell output for new inputs it's called "Supervised Larning".
+Ex.: Student placed or not with IQ and CGPA bases.
+
+IQ      CGPA        Y/N placed
+87      7.1         Y
+111     8.9         Y
+75      6.3         N
+
+Data Types:
+1) numerical Data- age, CGPA, IQ
+2)Categorical- gender, nationality
+
+|-> i) Regration: if our Target/output column data is 'Numerical Data' so that Supervised ML Problame called "Regration".
+
+Ex.: Student Packag/Salary or not with IQ and CGPA bases.
+
+IQ      CGPA        Salary/Packag
+87      7.1         12LPA
+111     8.9         18LPA
+75      6.3         Nun
+
+- House Price pridiction.
+- Howmany Dog's are there in image 
+
+|-> ii) Classification:if our Target/output column data is 'Categorical Data' so that Supervised ML Problame called "Classification".
+
+Ex.: Student placed or not with IQ and CGPA bases.
+
+IQ      CGPA        Y/N placed
+87      7.1         Y
+111     8.9         Y
+75      6.3         N
+
+- Mail Spam not spam detection
+- rain pridiction 
