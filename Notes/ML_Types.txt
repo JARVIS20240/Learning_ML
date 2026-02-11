@@ -40,3 +40,15 @@ IQ      CGPA        Y/N placed
 
 - Mail Spam not spam detection
 - rain pridiction 
+
+
+
+2) Unsupervised Learning:If we have only Inputs in our Data so it's called "Unsupervised Larning".
+
+|-> i) Clustering: Gropping the same value that called "Clustering"
+
+|-> ii) Dimentionality Reduction: Remove Extra columns form Dtaaset so decresed   
+
+|-> iii) Anamoly Detection:
+
+|-> iv) Assosiation Rule Learning:
